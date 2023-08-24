@@ -29,7 +29,7 @@ Traitement des valeurs aberrantes
 Traitement des valeurs manquantes
 
 
-## Conclusion(Manger Sans-Gluten)
+## Conclusion(Manger Sans-Gluten)
 - Notre plateforme de données contient les informations nutritionnelles nécessaires pour le fonctionnement de notre application à savoir la quantité de gluten, sucre, calories et sel.
 - La reconnaissance d’un produit se fait par son code à barre. 
 - Nous constatons qu’il y a des produits de la catégorie A ou B qui contiennent un taux élevé de graisse ou de sel, donc nous pouvons étudier le calcul du nutriscore. 
