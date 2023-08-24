@@ -1,11 +1,17 @@
 # Une application au service de la santé publique
+## Projet3-Openclassrooms
+&nbsp;
+**Author:** Gulsum Kapanoglu
+***
+<img src="sante.png">
 
-L'agence "Santé publique France" a lancé un appel à projets pour trouver des idées innovantes d’applications en lien avec l'alimentation. Vous souhaitez y participer et proposer une idée d’application.
+## Description de projet
+
+L'agence "Santé publique France" a lancé un appel à projets pour trouver des idées innovantes d’applications en lien avec l'alimentation. .. y participer et proposer une idée d’application.
 
 ## Les données
-Extrait de l’appel à projets :
 
-Le jeu de données Open Food Facts est disponible sur le site officiel (ou disponible à ce lien en téléchargement). Les variables sont définies à cette adresse.
+Le jeu de données Open Food Facts est disponible sur le site officiel https://world.openfoodfacts.org/ 
 
 Les champs sont séparés en quatre sections :
 
@@ -15,29 +21,27 @@ Les ingrédients composant les produits et leurs additifs éventuels.
 Des informations nutritionnelles : quantité en grammes d’un nutriment pour 100 grammes du produit.
 
 ## Mission
-Après avoir lu l’appel à projets, voici les différentes étapes que vous avez identifiées :
-
-1) Traiter le jeu de données, en :
-
-Réfléchissant à une idée d’application.
-Repérant des variables pertinentes pour les traitements à venir, et nécessaires pour votre idée d’application.
-Nettoyant les données en :
-mettant en évidence les éventuelles valeurs manquantes, avec au moins 3 méthodes de traitement adaptées aux variables concernées,
-identifiant et en quantifiant les éventuelles valeurs aberrantes de chaque variable.
-Automatisant ces traitements pour éviter de répéter ces opérations
-
-2) Tout au long de l’analyse, produire des visualisations afin de mieux comprendre les données. Effectuer une analyse univariée pour chaque variable intéressante, afin de synthétiser son comportement.
-
-3) Confirmer ou infirmer les hypothèses à l’aide d’une analyse multivariée. Effectuer les tests statistiques appropriés pour vérifier la significativité des résultats.
-
-4) Justifier votre idée d’application. Identifier des arguments justifiant la faisabilité (ou non) de l’application à partir des données Open Food Facts.
-
-5) Rédiger un rapport d’exploration et pitcher votre idée durant la soutenance du projet.
 
 
+## Méthodologie
+Choix des Features
+Traitement des valeurs aberrantes
+Traitement des valeurs manquantes
+
+
+## Conclusion(Manger Sans-Gluten)
+- Notre plateforme de données contient les informations nutritionnelles nécessaires pour le fonctionnement de notre application à savoir la quantité de gluten, sucre, calories et sel.
+- La reconnaissance d’un produit se fait par son code à barre. 
+- Nous constatons qu’il y a des produits de la catégorie A ou B qui contiennent un taux élevé de graisse ou de sel, donc nous pouvons étudier le calcul du nutriscore. 
+- Possibilité d’améliorer notre application en proposant des produits alternatif (équivalent) sans gluten lors du scan d’un produit avec gluten. 
+
+## Pour plus d'informations
+Veuillez consulter mon analyse complète dans [mon Jupyter Notebook](./Notebook_exploration.ipynb) ou ma [présentation](./Presentation.pdf). Pour toute question supplémentaire, veuillez contacter avec moi à gulsumkapanoglu@gmail.com.
+
+Ce travail a été réalisé lors du projet 3 de ma formation Centrale Supèlec et OpenClassrooms de Data Scientist.
 
 ## Compétences évaluées
-Effectuer des opérations de nettoyage sur des données structurées
-Effectuer une analyse statistique univariée
-Communiquer ses résultats à l’aide de représentations graphiques lisibles et pertinentes
-Effectuer une analyse statistique multivariée
+- Effectuer une analyse statistique multivariée
+- Communiquer ses résultats à l’aide de représentations graphiques lisibles et pertinentes
+- Effectuer une analyse statistique univariée
+- Effectuer des opérations de nettoyage sur des données structurées
