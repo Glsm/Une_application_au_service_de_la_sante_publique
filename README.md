@@ -1,5 +1,5 @@
 # Une application au service de la santé publique
-## Projet3-Openclassrooms
+
 &nbsp;
 **Author:** Gulsum Kapanoglu
 ***
